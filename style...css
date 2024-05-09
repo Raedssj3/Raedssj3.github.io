@@ -1,0 +1,72 @@
+body {
+    background-image: url(image/saeko.png);
+    background-size: cover;
+}
+
+.t1 h1{
+    color: rgba(175, 196, 255, 0.836);
+    margin-left: 950px;
+}
+
+.t1 h2{
+    color: rgba(255, 176, 176, 0.836);
+    margin-left: 950px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.t1 img{
+    margin-left: 950px;
+    width: 600px;
+    height: auto;
+}
+
+.t2 h1{
+    margin-left: 950px;
+    color: rgb(167, 168, 236);
+    margin-top: 100px;
+}
+
+.t2 h2{
+    margin-left: 950px;
+    color: rgb(253, 193, 193);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.t2 img{
+    margin-left: 950px;
+    width: 600px;
+    height: auto;
+}
+
+.page22 a{
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(55, 125, 255, 0.404);
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    margin-left: 800px;
+    transition: background 0.5s;
+}
+
+.page22 a:hover{
+    background-color: rgba(255, 0, 0, 0.795);
+}
+
+.retour a{
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(255, 0, 0, 0.616);
+    border-radius: 30px;
+    padding: 15px 40px;
+    margin-top: -600px;
+    margin-left: 700px;
+    transition: background 0.5s;
+}
+
+.retour a:hover{
+    background: rgba(3, 114, 241, 0.726);
+}

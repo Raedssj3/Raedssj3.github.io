@@ -1,0 +1,91 @@
+body{
+        background-image: url('image/Capture\ d\'écran\ 2024-05-07\ 235025.png');
+       background-repeat: no-repeat;
+       background-size: cover;
+    background-color: rgba(139, 0, 0, 0.911);
+}
+
+.logo img{
+    width: 250px;
+    margin-top: -20px;
+    margin-left: -1.7;
+}
+
+.titre h1{
+    
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 310px;
+    font-size: 45px;
+    background: rgba(245, 245, 245, 0.144);
+    border-radius: 35px;
+    width: 1000px;
+}
+
+.contact a{
+    color: white;
+    margin-left: 1450px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 1;
+    transition: color 0.5s;
+}
+
+.contact a:hover{
+    color: plum;
+}
+
+.col1 h1{
+    color: rgb(53, 130, 230);
+    
+ transform: translateY(650px);
+    font-size: 35px;
+}
+
+.col1 h2{
+    transform: translateY(700px);
+    color: beige;
+    font-size: 25px;
+}
+
+.col2 h1{
+    color: rgb(68, 100, 243);
+    
+        transform: translateY(750px);
+    font-size: 35px;
+}
+
+.image1 img{
+    transform: translateY(310px);
+    width: 500px;
+    margin-left: 1020px;
+}
+
+.col2 h2{
+    transform: translateY(770px);
+    color: beige;
+    font-size: 25px;
+}
+
+.page2 a{
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(55, 125, 255, 0.616);
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    margin-left: 700px;
+    transition: background 0.5s;
+}
+
+.page2 a:hover{
+    background: rgba(255, 0, 0, 0.781);
+}
+
+footer{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
